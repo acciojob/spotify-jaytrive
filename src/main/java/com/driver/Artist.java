@@ -5,15 +5,15 @@ import java.util.List;
 public class Artist {
     private String name;
     private int likes;
-    private boolean likeForArtist=false;
+    //   private boolean likeForArtist=false;
 
-    public boolean isLikeForArtist() {
-        return likeForArtist;
-    }
+//    public boolean isLikeForArtist() {
+//        return likeForArtist;
+//    }
 
-    public void setLikeForArtist(boolean likeForArtist) {
-        this.likeForArtist = likeForArtist;
-    }
+//    public void setLikeForArtist(boolean likeForArtist) {
+//        this.likeForArtist = likeForArtist;
+//    }
 
     public Artist(){
 

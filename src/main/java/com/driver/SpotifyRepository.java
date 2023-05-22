@@ -300,12 +300,12 @@ public class SpotifyRepository {
                             {
                                 if (album == artistAlbumMap.get(artist))
                                 {
-                                    if (song.isLikeForSong() != true)
-                                    {
-                                        song.setLikeForSong(true);
-                                        song.setLikes(song.getLikes() + 1);
-                                        artist.setLikes(artist.getLikes() + 1);
-                                    }
+//                                    if (song.isLikeForSong() != true)
+//                                    {
+//                                        song.setLikeForSong(true);
+//                                        song.setLikes(song.getLikes() + 1);
+//                                        artist.setLikes(artist.getLikes() + 1);
+//                                    }
                                 }
                             }
                         }
