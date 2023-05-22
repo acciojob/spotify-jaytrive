@@ -5,15 +5,15 @@ public class Song {
     private int length;
     private int likes;
 
-//    private boolean likeForSong=false;
+    private boolean likeForSong=false;
 
-//    public boolean isLikeForSong() {
-//        return likeForSong;
-//    }
-//
-//    public void setLikeForSong(boolean likeForSong) {
-//        this.likeForSong = likeForSong;
-//    }
+    public boolean isLikeForSong() {
+        return likeForSong;
+    }
+
+    public void setLikeForSong(boolean likeForSong) {
+        this.likeForSong = likeForSong;
+    }
 
     public Song(){
 
